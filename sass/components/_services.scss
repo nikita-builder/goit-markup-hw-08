@@ -1,0 +1,37 @@
+    .services {
+        display: flex;
+
+    &__item {
+        position: relative;
+        margin-right: 30px;
+    }
+    &__item:last-child {
+        margin: 0;
+    }
+    &__item img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    &__description {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 70px;
+        text-align: center;
+        background-color: rgba(47, 48, 58, 0.8);
+    }
+    &__text {
+        display: inline-block;
+        font-family: $main-font;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        color: $primary-light-txt;
+        text-transform: uppercase;
+    }
+}
