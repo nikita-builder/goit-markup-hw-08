@@ -485,7 +485,8 @@ img {
 }
 
 .logo--footer {
-  margin-right: 0;
+  padding: 0;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
